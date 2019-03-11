@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.8.1)
+  - MaterialComponents/AnimationTiming (78.0.1)
+  - MaterialComponents/Palettes (78.0.1)
+  - MaterialComponents/private/Application (78.0.1)
+  - MaterialComponents/private/Math (78.0.1)
+  - MaterialComponents/TextFields (78.0.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (78.0.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.4.3):
+    - MZAppearance
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - MaterialComponents/TextFields
+  - MZFormSheetPresentationController
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - MaterialComponents
+    - MDFInternationalization
+    - MZAppearance
+    - MZFormSheetPresentationController
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  MaterialComponents: 1e1d1a8356bbf2b80f6a0aa32018cda8ac8065a5
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+
+PODFILE CHECKSUM: 04f527af9e175afb3375e5b4ec9cb3b7afc80929
+
+COCOAPODS: 1.5.3
